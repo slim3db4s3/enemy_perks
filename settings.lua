@@ -20,7 +20,7 @@ function ModSettingsUpdate(init_scope)
  for i,perk in ipairs(perk_list) do
    local setting = {
      id = perk.id,
-     name = perk.ui_name
+     name = perk.ui_name,
      desc = perk.ui_description,
      icon = perk.ui_icon,
      key = "enemy_perks.perk_" .. perk.id,

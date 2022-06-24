@@ -56,7 +56,6 @@ function enemy_perks( target )
 			end
 
 			for id in string.gmatch(valid_perks, '([^,]+)') do
-				print(id)
 				if (id ~= "_") then
 					give_perk_to_enemy(perk_list[tonumber(id)], target, 0)
 				end
